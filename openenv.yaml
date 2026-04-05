@@ -1,0 +1,10 @@
+name : "regtech_ml_auditor"
+version: "1.0.0"
+description: "A machine learning auditor for regulatory technology applications."
+task:
+  -id : "Easy-mismach"
+  diffculty: "easy"
+  reward_threshold : 0.8
+  -id : "Medium-mismach"
+  diffculty: "medium"
+  reward_threshold : 0.85
