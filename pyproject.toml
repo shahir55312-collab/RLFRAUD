@@ -1,0 +1,10 @@
+[project]
+name = "rl-agent"
+version = "0.1.0"
+description = "RL fraud detection agent"
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "numpy",
+    "gymnasium"
+]
