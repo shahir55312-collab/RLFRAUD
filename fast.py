@@ -4,7 +4,7 @@ from openenv.model import AMLauditor
 app = FastAPI()
 env = AMLauditor()
 
-@app.get("/reset")
+@app.post("/reset")
 def reset():
     state, _ = env.reset()
     return {"state": state.tolist()}
