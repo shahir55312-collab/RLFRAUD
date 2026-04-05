@@ -6,5 +6,9 @@ dependencies = [
     "fastapi",
     "uvicorn",
     "numpy",
-    "gymnasium"
+    "gymnasium",
+    "openenv>=0.2.0"
 ]
+
+[project.scripts]
+server = "fast:app"
