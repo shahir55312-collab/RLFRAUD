@@ -1,21 +1,28 @@
 def main():
-    # simulate environment manually or load model
+    task_name = "rl-agent"
 
-    state = [0, 0, 0]  # dummy or initial state
-    print("Initial State:", state)
+    # START block
+    print(f"[START] task={task_name}", flush=True)
 
+    total_reward = 0
+    steps = 0
+
+    # simulate 1 step (you can add more)
     action = 1
+    reward = 1.0
 
-    # simulate next state (replace with your logic/model)
-    next_state = [1, 0, 0]
-    reward = 1
-    done = False
+    total_reward += reward
+    steps += 1
 
-    print("Action:", action)
-    print("Next State:", next_state)
-    print("Reward:", reward)
-    print("Done:", done)
+    # STEP block
+    print(f"[STEP] step={steps} reward={reward}", flush=True)
+
+    # END block
+    print(f"[END] task={task_name} score={total_reward} steps={steps}", flush=True)
 
 
 if __name__ == "__main__":
     main()
+
+
+
