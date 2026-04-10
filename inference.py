@@ -1,6 +1,6 @@
 import requests
 
-BASE_URL = "http://127.0.0.1:8000"
+BASE_URL = "http://127.0.0.1:7860"
 
 
 res = requests.get(f"{BASE_URL}/reset")
