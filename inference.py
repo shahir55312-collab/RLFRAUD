@@ -25,7 +25,7 @@ def main():
     print("[END] task=rl-agent score=1.0 steps=1", flush=True)
 
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     main()
 
 
